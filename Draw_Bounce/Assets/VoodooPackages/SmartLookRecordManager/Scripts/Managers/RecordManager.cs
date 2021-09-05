@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.iOS;
+//using UnityEngine.iOS;
 
 namespace VoodooPackages.Tool
 {
@@ -18,28 +18,28 @@ namespace VoodooPackages.Tool
 		void Awake()
 		{
 
-			#if UNITY_IOS
+			//#if UNITY_IOS
 
-			DontDestroyOnLoad(gameObject);
+			//DontDestroyOnLoad(gameObject);
 
-			if (Debug.isDebugBuild && testOnDevBuild)
-			{
-				Smartlook.Init(smartLookKey, 10);
-			}
-			else
-			{
-				switch (Device.generation)
-				{
-					case DeviceGeneration.iPhone8:
-					case DeviceGeneration.iPhone8Plus:
-					case DeviceGeneration.iPhoneX:
-					{
-						Smartlook.Init(smartLookKey, 10);
-						break;
-					}
-				}
-			}
-			#endif
+			//if (Debug.isDebugBuild && testOnDevBuild)
+			//{
+			//	Smartlook.Init(smartLookKey, 10);
+			//}
+			//else
+			//{
+			//	switch (Device.generation)
+			//	{
+			//		case DeviceGeneration.iPhone8:
+			//		case DeviceGeneration.iPhone8Plus:
+			//		case DeviceGeneration.iPhoneX:
+			//		{
+			//			Smartlook.Init(smartLookKey, 10);
+			//			break;
+			//		}
+			//	}
+			//}
+			//#endif
 		}
 
 
