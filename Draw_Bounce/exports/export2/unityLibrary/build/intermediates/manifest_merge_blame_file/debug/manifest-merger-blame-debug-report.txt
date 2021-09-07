@@ -1,0 +1,242 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="preferExternal"
+6    android:versionCode="1"
+7    android:versionName="0.1"
+8    tools:ignore="MissingLeanbackSupport" >
+9
+10    <uses-sdk
+11        android:minSdkVersion="19"
+11-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+12        android:targetSdkVersion="29" />
+12-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+14-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+15-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:5:3-74
+16-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:5:20-71
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:6:3-108
+17-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:6:20-105
+18
+19    <uses-feature android:glEsVersion="0x00020000" />
+19-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:7:3-52
+19-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:7:17-49
+20    <uses-feature
+20-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:42:3-91
+21        android:name="android.hardware.vulkan.version"
+21-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:42:17-63
+22        android:required="false" />
+22-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:42:64-88
+23    <uses-feature
+23-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:43:3-88
+24        android:name="android.hardware.touchscreen"
+24-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:43:17-60
+25        android:required="false" />
+25-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:43:61-85
+26    <uses-feature
+26-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:44:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:44:17-71
+28        android:required="false" />
+28-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:44:72-96
+29    <uses-feature
+29-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:45:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:45:17-80
+31        android:required="false" />
+31-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:45:81-105
+32
+33    <application
+33-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:3-41:17
+34        android:name="androidx.multidex.MultiDexApplication"
+34-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:16-68
+35        android:allowBackup="false"
+35-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:103-130
+36        android:fullBackupContent="false"
+36-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:69-102
+37        android:theme="@android:style/Theme.NoTitleBar"
+37-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:131-178
+38        tools:ignore="GoogleAppIndexingWarning,MissingTvBanner"
+38-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:179-234
+39        tools:replace="fullBackupContent,allowBackup" >
+39-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:235-280
+40
+41        <!-- UNITY -->
+42        <activity
+42-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:5-20:16
+43            android:name="com.unity3d.player.UnityPlayerActivity"
+43-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:15-68
+44            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+44-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:177-358
+45            android:hardwareAccelerated="false"
+45-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:394-429
+46            android:label="@string/app_name"
+46-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:69-101
+47            android:launchMode="singleTask"
+47-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:145-176
+48            android:resizeableActivity="false"
+48-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:359-393
+49            android:screenOrientation="sensorPortrait" >
+49-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:102-144
+50            <intent-filter>
+50-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:11:7-15:23
+51                <action android:name="android.intent.action.MAIN" />
+51-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:12:9-61
+51-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:12:17-58
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:13:9-69
+53-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:13:19-66
+54                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+54-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:14:9-78
+54-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:14:19-75
+55            </intent-filter>
+56
+57            <meta-data
+57-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:16:7-82
+58                android:name="unityplayer.UnityActivity"
+58-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:16:18-58
+59                android:value="true" />
+59-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:16:59-79
+60            <meta-data
+60-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:17:7-97
+61                android:name="unityplayer.ForwardNativeEventsToDalvik"
+61-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:17:18-72
+62                android:value="false" />
+62-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:17:73-94
+63            <meta-data
+63-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:18:7-120
+64                android:name="com.google.android.gms.version"
+64-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:18:18-63
+65                android:value="@integer/google_play_services_version" />
+65-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:18:64-117
+66            <meta-data
+66-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:19:7-78
+67                android:name="android.notch_support"
+67-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:19:18-54
+68                android:value="true" />
+68-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:19:55-75
+69        </activity>
+70        <!-- FULLSCREEN FIX -->
+71        <meta-data
+71-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:22:5-73
+72            android:name="android.max_aspect"
+72-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:22:16-49
+73            android:value="2.16" />
+73-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:22:50-70
+74        <!-- 3rdParty MANIFEST -->
+75        <activity
+75-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:24:5-301
+76            android:name="com.facebook.unity.FBUnityLoginActivity"
+76-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:24:15-69
+77            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+77-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:24:70-227
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+78-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:24:228-298
+79        <activity
+79-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:25:5-303
+80            android:name="com.facebook.unity.FBUnityDialogsActivity"
+80-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:25:15-71
+81            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+81-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:25:72-229
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+82-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:25:230-300
+83        <activity
+83-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:26:5-322
+84            android:name="com.facebook.unity.FBUnityGamingServicesFriendFinderActivity"
+84-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:26:15-90
+85            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+85-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:26:91-248
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+86-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:26:249-319
+87        <activity
+87-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:27:5-98
+88            android:name="com.facebook.unity.FBUnityAppLinkActivity"
+88-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:27:15-71
+89            android:exported="true" />
+89-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:27:72-95
+90        <activity
+90-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:28:5-102
+91            android:name="com.facebook.unity.FBUnityDeepLinkingActivity"
+91-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:28:15-75
+92            android:exported="true" />
+92-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:28:76-99
+93        <activity android:name="com.facebook.unity.FBUnityGameRequestActivity" />
+93-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:29:5-78
+93-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:29:15-75
+94        <activity android:name="com.facebook.unity.FBUnityCreateGameGroupActivity" />
+94-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:30:5-82
+94-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:30:15-79
+95        <activity android:name="com.facebook.unity.FBUnityJoinGameGroupActivity" />
+95-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:31:5-80
+95-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:31:15-77
+96
+97        <meta-data
+97-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:32:5-98
+98            android:name="com.facebook.sdk.ApplicationId"
+98-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:32:16-61
+99            android:value="fb213273517519369" />
+99-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:32:62-95
+100        <meta-data
+100-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:33:5-95
+101            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+101-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:33:16-71
+102            android:value="true" />
+102-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:33:72-92
+103        <meta-data
+103-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:34:5-101
+104            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+104-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:34:16-77
+105            android:value="true" />
+105-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:34:78-98
+106
+107        <provider
+107-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:35:5-171
+108            android:name="com.facebook.FacebookContentProvider"
+108-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:35:15-66
+109            android:authorities="com.facebook.app.FacebookContentProvider213273517519369"
+109-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:35:67-144
+110            android:exported="true" />
+110-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:35:145-168
+111
+112        <meta-data
+112-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:36:5-69
+113            android:name="unity.splash-mode"
+113-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:36:16-48
+114            android:value="0" />
+114-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:36:49-66
+115        <meta-data
+115-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:37:5-74
+116            android:name="unity.splash-enable"
+116-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:37:16-50
+117            android:value="True" />
+117-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:37:51-71
+118        <meta-data
+118-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:38:5-84
+119            android:name="unity.allow-resizable-window"
+119-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:38:16-59
+120            android:value="False" />
+120-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:38:60-81
+121        <meta-data
+121-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:39:5-81
+122            android:name="notch.config"
+122-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:39:16-43
+123            android:value="portrait|landscape" />
+123-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:39:44-78
+124        <meta-data
+124-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:40:5-101
+125            android:name="unity.build-id"
+125-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:40:16-45
+126            android:value="856dcc0e-c21e-4961-8887-cc69329fa71e" />
+126-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:40:46-98
+127    </application>
+128
+129</manifest>

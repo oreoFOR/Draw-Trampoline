@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :gameanalytics:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6d9a22eb61e643ea41d0c2655bc8badb/transformed/jetified-gameanalytics/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6d9a22eb61e643ea41d0c2655bc8badb/transformed/jetified-gameanalytics/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6d9a22eb61e643ea41d0c2655bc8badb/transformed/jetified-gameanalytics/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

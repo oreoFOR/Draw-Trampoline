@@ -1,0 +1,350 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ShedWise.IntoTheCup"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-67
+19-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-79
+20-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-76
+21-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-110
+22-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-107
+23
+24    <uses-feature android:glEsVersion="0x00020000" />
+24-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-54
+24-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:19-51
+25    <uses-feature
+25-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:36
+26        android:name="android.hardware.vulkan.version"
+26-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-55
+27        android:required="false" />
+27-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33
+28    <uses-feature
+28-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:36
+29        android:name="android.hardware.touchscreen"
+29-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-52
+30        android:required="false" />
+30-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-33
+31    <uses-feature
+31-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-28:36
+32        android:name="android.hardware.touchscreen.multitouch"
+32-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-63
+33        android:required="false" />
+33-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-33
+34    <uses-feature
+34-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-31:36
+35        android:name="android.hardware.touchscreen.multitouch.distinct"
+35-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-72
+36        android:required="false" />
+36-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-33
+37
+38    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+39    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+41
+42    <application
+42-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:4:3-110
+43        android:name="androidx.multidex.MultiDexApplication"
+43-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-61
+44        android:allowBackup="false"
+44-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-36
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.1.0] C:\Users\Linton\.gradle\caches\transforms-3\4175f4ed188081a4caec6eb97e99cb5f\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:fullBackupContent="false"
+47-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-42
+48        android:icon="@mipmap/app_icon"
+48-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:4:49-80
+49        android:label="@string/app_name"
+49-->O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\launcher\src\main\AndroidManifest.xml:4:16-48
+50        android:supportsRtl="true"
+50-->[com.facebook.android:facebook-applinks:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\07b26e35996d78321e6c77d9fbc5bf6a\transformed\jetified-facebook-applinks-8.2.0\AndroidManifest.xml:28:18-44
+51        android:testOnly="true"
+52        android:theme="@android:style/Theme.NoTitleBar" > <!-- UNITY -->
+52-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-56
+53        <activity
+53-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-69:20
+54            android:name="com.unity3d.player.UnityPlayerActivity"
+54-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-66
+55            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+55-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-194
+56            android:hardwareAccelerated="false"
+56-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-48
+57            android:label="@string/app_name"
+57-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-45
+58            android:launchMode="singleTask"
+58-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-44
+59            android:resizeableActivity="false"
+59-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-47
+60            android:screenOrientation="sensorPortrait" >
+60-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-55
+61            <intent-filter>
+61-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-55:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-69
+62-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-77
+64-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:27-74
+65                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+65-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:17-86
+65-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:27-83
+66            </intent-filter>
+67
+68            <meta-data
+68-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-59:40
+69                android:name="unityplayer.UnityActivity"
+69-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-57
+70                android:value="true" />
+70-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:17-37
+71            <meta-data
+71-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-62:41
+72                android:name="unityplayer.ForwardNativeEventsToDalvik"
+72-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:17-71
+73                android:value="false" />
+73-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:17-38
+74            <meta-data
+74-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-65:73
+75                android:name="com.google.android.gms.version"
+75-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:17-62
+76                android:value="@integer/google_play_services_version" />
+76-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-70
+77            <meta-data
+77-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-68:40
+78                android:name="android.notch_support"
+78-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:17-53
+79                android:value="true" />
+79-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:17-37
+80        </activity> <!-- FULLSCREEN FIX -->
+81        <meta-data
+81-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:9-73:36
+82            android:name="android.max_aspect"
+82-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-46
+83            android:value="2.16" /> <!-- 3rdParty MANIFEST -->
+83-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-33
+84        <activity
+84-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-78:86
+85            android:name="com.facebook.unity.FBUnityLoginActivity"
+85-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-67
+86            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+86-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-170
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+87-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-83
+88        <activity
+88-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:9-82:86
+89            android:name="com.facebook.unity.FBUnityDialogsActivity"
+89-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-69
+90            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+90-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-170
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+91-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-83
+92        <activity
+92-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:9-86:86
+93            android:name="com.facebook.unity.FBUnityGamingServicesFriendFinderActivity"
+93-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-88
+94            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+94-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-170
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+95-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-83
+96        <activity
+96-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:9-89:39
+97            android:name="com.facebook.unity.FBUnityAppLinkActivity"
+97-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:13-69
+98            android:exported="true" />
+98-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:13-36
+99        <activity
+99-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:9-92:39
+100            android:name="com.facebook.unity.FBUnityDeepLinkingActivity"
+100-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-73
+101            android:exported="true" />
+101-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-36
+102        <activity android:name="com.facebook.unity.FBUnityGameRequestActivity" />
+102-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:9-82
+102-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:19-79
+103        <activity android:name="com.facebook.unity.FBUnityCreateGameGroupActivity" />
+103-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:9-86
+103-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:19-83
+104        <activity android:name="com.facebook.unity.FBUnityJoinGameGroupActivity" />
+104-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:9-84
+104-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:19-81
+105
+106        <meta-data
+106-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:9-99:49
+107            android:name="com.facebook.sdk.ApplicationId"
+107-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-58
+108            android:value="fb213273517519369" />
+108-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-46
+109        <meta-data
+109-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:9-102:36
+110            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+110-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:13-68
+111            android:value="true" />
+111-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-33
+112        <meta-data
+112-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:9-105:36
+113            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+113-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-74
+114            android:value="true" />
+114-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:13-33
+115
+116        <provider
+116-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:9-110:39
+117            android:name="com.facebook.FacebookContentProvider"
+117-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-64
+118            android:authorities="com.facebook.app.FacebookContentProvider213273517519369"
+118-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-90
+119            android:exported="true" />
+119-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-36
+120
+121        <meta-data
+121-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:9-114:33
+122            android:name="unity.splash-mode"
+122-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-45
+123            android:value="0" />
+123-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-30
+124        <meta-data
+124-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:9-117:36
+125            android:name="unity.splash-enable"
+125-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-47
+126            android:value="True" />
+126-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-33
+127        <meta-data
+127-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:9-120:37
+128            android:name="unity.allow-resizable-window"
+128-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:119:13-56
+129            android:value="False" />
+129-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:13-34
+130        <meta-data
+130-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:9-123:50
+131            android:name="notch.config"
+131-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-40
+132            android:value="portrait|landscape" />
+132-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-47
+133        <meta-data
+133-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:9-126:68
+134            android:name="unity.build-id"
+134-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-42
+135            android:value="d6ace125-598e-4f58-b466-f4e2e78dc66d" />
+135-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:13-65
+136
+137        <activity
+137-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:30:9-33:66
+138            android:name="com.facebook.FacebookActivity"
+138-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:31:13-57
+139            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+139-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:32:13-96
+140            android:theme="@style/com_facebook_activity_theme" />
+140-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:33:13-63
+141        <activity android:name="com.facebook.CustomTabMainActivity" />
+141-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:34:9-71
+141-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:34:19-68
+142        <activity
+142-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:35:9-49:20
+143            android:name="com.facebook.CustomTabActivity"
+143-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:36:13-58
+144            android:exported="true" >
+144-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:37:13-36
+145            <intent-filter>
+145-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:39:13-48:29
+146                <action android:name="android.intent.action.VIEW" />
+146-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:40:17-69
+146-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:40:25-66
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:42:17-76
+148-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:42:27-73
+149                <category android:name="android.intent.category.BROWSABLE" />
+149-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:43:17-78
+149-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:43:27-75
+150
+151                <data
+151-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:45:17-47:50
+152                    android:host="cct.com.ShedWise.IntoTheCup"
+152-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:46:21-56
+153                    android:scheme="fbconnect" />
+153-->[com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\84382bb3c07da4982260d1b0b9a6c3f3\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:47:21-47
+154            </intent-filter>
+155        </activity>
+156        <!--
+157         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+158         with the application context. This config is merged in with the host app's manifest,
+159         but there can only be one provider with the same authority activated at any given
+160         point; so if the end user has two or more different apps that use Facebook SDK, only the
+161         first one will be able to use the provider. To work around this problem, we use the
+162         following placeholder in the authority to identify each host application as if it was
+163         a completely different provider.
+164        -->
+165        <provider
+165-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:39:9-42:40
+166            android:name="com.facebook.internal.FacebookInitProvider"
+166-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:40:13-70
+167            android:authorities="com.ShedWise.IntoTheCup.FacebookInitProvider"
+167-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:41:13-72
+168            android:exported="false" />
+168-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:42:13-37
+169
+170        <receiver
+170-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:44:9-50:20
+171            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+171-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:45:13-86
+172            android:exported="false" >
+172-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:46:13-37
+173            <intent-filter>
+173-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:47:13-49:29
+174                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+174-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:48:17-95
+174-->[com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-3\b5f323a4db1133fca655d44588c7342f\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:48:25-92
+175            </intent-filter>
+176        </receiver>
+177
+178        <meta-data
+178-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-65:73
+179            android:name="com.google.android.gms.version"
+179-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:17-62
+180            android:value="@integer/google_play_services_version" />
+180-->[:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export4\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-70
+181
+182        <service
+182-->[:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-3\6d9a22eb61e643ea41d0c2655bc8badb\transformed\jetified-gameanalytics\AndroidManifest.xml:15:9-17:65
+183            android:name="com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService"
+183-->[:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-3\6d9a22eb61e643ea41d0c2655bc8badb\transformed\jetified-gameanalytics\AndroidManifest.xml:16:13-99
+184            android:process=":gameAnalyticsExceptionReporter" />
+184-->[:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-3\6d9a22eb61e643ea41d0c2655bc8badb\transformed\jetified-gameanalytics\AndroidManifest.xml:17:13-62
+185
+186        <meta-data
+186-->[:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-3\56f1f759251d19464394cec18cc077ed\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+187            android:name="aia-compat-api-min-version"
+187-->[:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-3\56f1f759251d19464394cec18cc077ed\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:11:13-54
+188            android:value="1" />
+188-->[:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-3\56f1f759251d19464394cec18cc077ed\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:12:13-30
+189    </application>
+190
+191</manifest>

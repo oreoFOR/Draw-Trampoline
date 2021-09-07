@@ -1,0 +1,178 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.3'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+// Android Resolver Repos Start
+([rootProject] + (rootProject.subprojects as List)).each {
+    ext {
+        it.setProperty("android.useAndroidX", true)
+        it.setProperty("android.enableJetifier", true)
+    }
+}
+([rootProject] + (rootProject.subprojects as List)).each { project ->
+    project.repositories {
+        def unityProjectPath = $/file:///O:/UnityProjects/Draw-Trampoline/Draw_Bounce/$.replace("\\", "/")
+        maven {
+            url "https://maven.google.com"
+        }
+        mavenLocal()
+        jcenter()
+        mavenCentral()
+    }
+}
+// Android Resolver Repos End
+apply plugin: 'com.android.library'
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:multidex:1.0.3'
+  	implementation 'com.android.installreferrer:installreferrer:1.0'
+// Android Resolver Dependencies Start
+    implementation 'com.android.installreferrer:installreferrer:1.1.1' // Assets/VoodooPackages/TinySauce/Analytics/Common/3rdParty/Referrer/Android/Editor/ReferrerDependencies.xml:4
+    implementation 'com.android.support:appcompat-v7:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
+    implementation 'com.android.support:appcompat-v7:28.0.0' // Assets/VoodooPackages/TinySauce/Analytics/GameAnalytics/3rdParty/GameAnalytics/Editor/GameAnalyticsDependencies.xml:5
+    implementation 'com.android.support:cardview-v7:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
+    implementation 'com.android.support:customtabs:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
+    implementation 'com.android.support:support-v4:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
+    implementation 'com.facebook.android:facebook-applinks:[8.0, 9)' // Assets/VoodooPackages/TinySauce/Analytics/Facebook/3rdParty/FacebookSDK/Plugins/Editor/Dependencies.xml:6
+    implementation 'com.facebook.android:facebook-core:[8.0, 9)' // Assets/VoodooPackages/TinySauce/Analytics/Facebook/3rdParty/FacebookSDK/Plugins/Editor/Dependencies.xml:5
+    implementation 'com.facebook.android:facebook-gamingservices:[8.0, 9)' // Assets/VoodooPackages/TinySauce/Analytics/Facebook/3rdParty/FacebookSDK/Plugins/Editor/Dependencies.xml:9
+    implementation 'com.facebook.android:facebook-login:[8.0, 9)' // Assets/VoodooPackages/TinySauce/Analytics/Facebook/3rdParty/FacebookSDK/Plugins/Editor/Dependencies.xml:7
+    implementation 'com.facebook.android:facebook-share:[8.0, 9)' // Assets/VoodooPackages/TinySauce/Analytics/Facebook/3rdParty/FacebookSDK/Plugins/Editor/Dependencies.xml:8
+    implementation 'com.google.android.gms:play-services-ads-identifier:17.0.0' // Assets/VoodooPackages/TinySauce/Analytics/GameAnalytics/3rdParty/GameAnalytics/Editor/GameAnalyticsDependencies.xml:3
+    implementation 'com.google.android.gms:play-services-basement:17.1.0' // Assets/VoodooPackages/TinySauce/Analytics/GameAnalytics/3rdParty/GameAnalytics/Editor/GameAnalyticsDependencies.xml:4
+    implementation 'com.parse.bolts:bolts-android:1.4.0' // Assets/VoodooPackages/TinySauce/Analytics/Facebook/3rdParty/FacebookSDK/Plugins/Editor/Dependencies.xml:4
+// Android Resolver Dependencies End
+        implementation(name: 'facebook-android-wrapper-8.1.1', ext:'aar')
+    implementation(name: 'gameanalytics', ext:'aar')
+    implementation(name: 'instantapps-1.1.0', ext:'aar')
+
+}
+
+// Android Resolver Exclusions Start
+android {
+  packagingOptions {
+      exclude ('/lib/armeabi/*' + '*')
+      exclude ('/lib/mips/*' + '*')
+      exclude ('/lib/mips64/*' + '*')
+      exclude ('/lib/x86/*' + '*')
+      exclude ('/lib/x86_64/*' + '*')
+  }
+}
+// Android Resolver Exclusions End
+android {
+    compileSdkVersion 29
+    buildToolsVersion '30.0.2'
+
+    defaultConfig {
+        multiDexEnabled true
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName '0.1'
+        
+    }
+
+    dexOptions {
+        preDexLibraries false
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    packagingOptions {
+       exclude  'jsr305_annotations/Jsr305_annotations.gwt.xml'
+    }
+
+    aaptOptions {
+        noCompress '.unity3d', '.ress', '.resource', '.obb' + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }
+    
+
+    buildTypes {
+        debug {
+            jniDebuggable true
+        }
+        release {
+            minifyEnabled false
+            
+            signingConfig signingConfigs.debug
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+def getSdkDir() {
+    Properties local = new Properties()
+    local.load(new FileInputStream("${rootDir}/local.properties"))
+    return local.getProperty('sdk.dir')
+}
+
+def BuildIl2Cpp(String workingDir, String targetDirectory, String architecture, String abi, String configuration) {
+    exec {
+        commandLine(workingDir + "/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/il2cpp.exe",
+            "--compile-cpp",
+            "--libil2cpp-static",
+            "--platform=Android",
+            "--architecture=" + architecture,
+            "--configuration=" + configuration,
+            "--outputpath=" + workingDir + targetDirectory + abi + "/libil2cpp.so",
+            "--cachedirectory=" + workingDir + "/build/il2cpp_"+ abi + "_" + configuration + "/il2cpp_cache",
+            "--additional-include-directories=" + workingDir + "/src/main/Il2CppOutputProject/IL2CPP/external/bdwgc/include",
+            "--additional-include-directories=" + workingDir + "/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/include",
+            "--tool-chain-path=" + android.ndkDirectory,
+            "--map-file-parser=" + workingDir + "/src/main/Il2CppOutputProject/IL2CPP/MapFileParser/MapFileParser.exe",
+            "--generatedcppdir=" + workingDir + "/src/main/Il2CppOutputProject/Source/il2cppOutput",
+            "--baselib-directory=" + workingDir + "/src/main/jniStaticLibs/" + abi,
+            "--dotnetprofile=unityaot")
+        environment "ANDROID_SDK_ROOT", getSdkDir()
+    }
+    delete workingDir + targetDirectory + abi + "/libil2cpp.sym.so"
+    ant.move(file: workingDir + targetDirectory + abi + "/libil2cpp.dbg.so", tofile: workingDir + "/symbols/" + abi + "/libil2cpp.so")
+}
+
+android {
+    task BuildIl2CppTask {
+        doLast {
+              BuildIl2Cpp(projectDir.toString().replaceAll('\\\\', '/'), '/src/main/jniLibs/', 'ARMv7', 'armeabi-v7a', 'Release');
+              BuildIl2Cpp(projectDir.toString().replaceAll('\\\\', '/'), '/src/main/jniLibs/', 'ARM64', 'arm64-v8a', 'Release');
+        }
+    }
+    afterEvaluate {
+        if (project(':unityLibrary').tasks.findByName('mergeDebugJniLibFolders'))
+            project(':unityLibrary').mergeDebugJniLibFolders.dependsOn BuildIl2CppTask
+        if (project(':unityLibrary').tasks.findByName('mergeReleaseJniLibFolders'))
+            project(':unityLibrary').mergeReleaseJniLibFolders.dependsOn BuildIl2CppTask
+    }
+    sourceSets {
+        main {
+            jni.srcDirs = ["src/main/Il2CppOutputProject"]
+        }
+    }
+}
+
+
+

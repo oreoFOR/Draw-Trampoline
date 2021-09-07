@@ -1,0 +1,265 @@
+-- Merging decision tree log ---
+manifest
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:117-145
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:70-116
+	android:versionCode
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:11-69
+	tools:ignore
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:187-224
+	android:installLocation
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:2:146-186
+uses-permission#android.permission.INTERNET
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:5:3-74
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:5:20-71
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:6:3-108
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:6:20-105
+uses-feature#0x00020000
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:7:3-52
+	android:glEsVersion
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:7:17-49
+application
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:3-41:17
+	android:fullBackupContent
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:69-102
+	tools:ignore
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:179-234
+	android:allowBackup
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:103-130
+	android:theme
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:131-178
+	tools:replace
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:235-280
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:8:16-68
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:5-20:16
+	android:screenOrientation
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:102-144
+	android:label
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:69-101
+	android:launchMode
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:145-176
+	android:hardwareAccelerated
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:394-429
+	android:resizeableActivity
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:359-393
+	android:configChanges
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:177-358
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:10:15-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:11:7-15:23
+action#android.intent.action.MAIN
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:12:9-61
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:12:17-58
+category#android.intent.category.LAUNCHER
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:13:9-69
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:13:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:14:9-78
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:14:19-75
+meta-data#unityplayer.UnityActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:16:7-82
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:16:59-79
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:16:18-58
+meta-data#unityplayer.ForwardNativeEventsToDalvik
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:17:7-97
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:17:73-94
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:17:18-72
+meta-data#com.google.android.gms.version
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:18:7-120
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:18:64-117
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:18:18-63
+meta-data#android.notch_support
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:19:7-78
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:19:55-75
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:19:18-54
+meta-data#android.max_aspect
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:22:5-73
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:22:50-70
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:22:16-49
+activity#com.facebook.unity.FBUnityLoginActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:24:5-301
+	android:configChanges
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:24:70-227
+	android:theme
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:24:228-298
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:24:15-69
+activity#com.facebook.unity.FBUnityDialogsActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:25:5-303
+	android:configChanges
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:25:72-229
+	android:theme
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:25:230-300
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:25:15-71
+activity#com.facebook.unity.FBUnityGamingServicesFriendFinderActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:26:5-322
+	android:configChanges
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:26:91-248
+	android:theme
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:26:249-319
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:26:15-90
+activity#com.facebook.unity.FBUnityAppLinkActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:27:5-98
+	android:exported
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:27:72-95
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:27:15-71
+activity#com.facebook.unity.FBUnityDeepLinkingActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:28:5-102
+	android:exported
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:28:76-99
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:28:15-75
+activity#com.facebook.unity.FBUnityGameRequestActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:29:5-78
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:29:15-75
+activity#com.facebook.unity.FBUnityCreateGameGroupActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:30:5-82
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:30:15-79
+activity#com.facebook.unity.FBUnityJoinGameGroupActivity
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:31:15-77
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:32:5-98
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:32:62-95
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:32:16-61
+meta-data#com.facebook.sdk.AutoLogAppEventsEnabled
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:33:5-95
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:33:72-92
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:33:16-71
+meta-data#com.facebook.sdk.AdvertiserIDCollectionEnabled
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:34:5-101
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:34:78-98
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:34:16-77
+provider#com.facebook.FacebookContentProvider
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:35:5-171
+	android:authorities
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:35:67-144
+	android:exported
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:35:145-168
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:35:15-66
+meta-data#unity.splash-mode
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:36:5-69
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:36:49-66
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:36:16-48
+meta-data#unity.splash-enable
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:37:5-74
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:37:51-71
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:37:16-50
+meta-data#unity.allow-resizable-window
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:38:5-84
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:38:60-81
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:38:16-59
+meta-data#notch.config
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:39:5-81
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:39:44-78
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:39:16-43
+meta-data#unity.build-id
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:40:5-101
+	android:value
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:40:46-98
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:40:16-45
+uses-feature#android.hardware.vulkan.version
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:42:3-91
+	android:required
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:42:64-88
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:42:17-63
+uses-feature#android.hardware.touchscreen
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:43:3-88
+	android:required
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:43:61-85
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:43:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:44:3-99
+	android:required
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:44:72-96
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:44:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:45:3-108
+	android:required
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:45:81-105
+	android:name
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml:45:17-80
+uses-sdk
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\src\main\AndroidManifest.xml

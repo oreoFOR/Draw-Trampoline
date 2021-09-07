@@ -1,0 +1,538 @@
+-- Merging decision tree log ---
+manifest
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+MERGED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-129:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\26134ccdb2d0f0668471e01e1e50dcd9\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76b112e0556a930742decf8040b458e9\jetified-facebook-applinks-8.2.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\74debc4c1b298d2f6424cb117e64082d\jetified-facebook-gamingservices-8.2.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\26ade20258d24b82ded843b71e3474c6\jetified-facebook-login-8.2.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\742746a3e7731b1a1a07b9d32060ec2c\jetified-facebook-share-8.2.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:21:1-52:12
+MERGED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.installreferrer:installreferrer:1.1.1] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\94770473d1f361be7880942d238dcb52\jetified-installreferrer-1.1.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f209091eb3926c649f0b3346884e478c\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\ffb6a67829fa40d4c0493cb7e147e8f7\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d65cb7c8efed3ac0d87582c278bb8c7e\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\be0f08ddbc7b2ceb9beb29e6b731c207\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\346d5a4de9de9f191c81a5b0fc989c75\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\591f672701bf83cf8c05b0937b09f458\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [:facebook-android-wrapper-8.1.1:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\73f7650b3f0ff1cde3e2a2122bd20d82\jetified-facebook-android-wrapper-8.1.1\AndroidManifest.xml:21:1-30:12
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:2:1-20:12
+MERGED from [:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\dad8ce327a3abc030a5b2e2967480431\jetified-instantapps-1.1.0\AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f5ec57ec49d0a3e9add695de66a9078c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\18f5c1f0dcc08504bb6a1709d838cf6b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\a083b9190df6cd0b2eed1b8d83acb3d5\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\23f12b0a995277db82a9d4b860245889\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\32488318cfc756fa0f6ae91e625fa530\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\702974eead929cb167f132efe0eabb04\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7bcdab9edca68925f6bcb92ddd8a20de\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\12c076570219bdc2a11e9d0df335391a\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d711f81259436f09ffdf0b48105165e3\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\87e4a5cb4839ebd5d033fa0ae6227780\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\df8a19ef163eaa8f3d3c8f24458897fd\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\aa2f1cd22069a9bb65f1845d902d729f\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f1f8381ec1e1c3f6b165a08612cfd883\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f52c60a67eb4c2183a64b296ae574169\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\0878a65179abd6a1b5016c6981bce614\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c6f1e76c078a7e4f5288325854cab247\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7282e00d74c6a6acf53f4bfd68421266\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\098c479f6892902db16f6d5e04f3818b\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\8cf26fd0d5f767ad6dfe1019ab25b952\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\86f8c8e32c7613bbe5e86eb4377e9413\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:117-150
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:70-116
+	android:versionCode
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:151-191
+supports-screens
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:4:3-110
+MERGED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-127:19
+MERGED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-127:19
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76b112e0556a930742decf8040b458e9\jetified-facebook-applinks-8.2.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76b112e0556a930742decf8040b458e9\jetified-facebook-applinks-8.2.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\74debc4c1b298d2f6424cb117e64082d\jetified-facebook-gamingservices-8.2.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\74debc4c1b298d2f6424cb117e64082d\jetified-facebook-gamingservices-8.2.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\26ade20258d24b82ded843b71e3474c6\jetified-facebook-login-8.2.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\26ade20258d24b82ded843b71e3474c6\jetified-facebook-login-8.2.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\742746a3e7731b1a1a07b9d32060ec2c\jetified-facebook-share-8.2.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\742746a3e7731b1a1a07b9d32060ec2c\jetified-facebook-share-8.2.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:28:5-51:19
+MERGED from [com.android.installreferrer:installreferrer:1.1.1] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\94770473d1f361be7880942d238dcb52\jetified-installreferrer-1.1.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.1] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\94770473d1f361be7880942d238dcb52\jetified-installreferrer-1.1.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\346d5a4de9de9f191c81a5b0fc989c75\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\346d5a4de9de9f191c81a5b0fc989c75\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\591f672701bf83cf8c05b0937b09f458\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\591f672701bf83cf8c05b0937b09f458\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [:facebook-android-wrapper-8.1.1:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\73f7650b3f0ff1cde3e2a2122bd20d82\jetified-facebook-android-wrapper-8.1.1\AndroidManifest.xml:28:5-20
+MERGED from [:facebook-android-wrapper-8.1.1:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\73f7650b3f0ff1cde3e2a2122bd20d82\jetified-facebook-android-wrapper-8.1.1\AndroidManifest.xml:28:5-20
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:14:5-18:19
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:14:5-18:19
+MERGED from [:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\dad8ce327a3abc030a5b2e2967480431\jetified-instantapps-1.1.0\AndroidManifest.xml:9:5-13:19
+MERGED from [:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\dad8ce327a3abc030a5b2e2967480431\jetified-instantapps-1.1.0\AndroidManifest.xml:9:5-13:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-applinks:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76b112e0556a930742decf8040b458e9\jetified-facebook-applinks-8.2.0\AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:4:16-48
+	android:fullBackupContent
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-42
+	tools:ignore
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-64
+	android:allowBackup
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-36
+	android:icon
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:4:49-80
+	android:theme
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-56
+	tools:replace
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:4:81-107
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-61
+uses-sdk
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-12:41
+MERGED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-12:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\26134ccdb2d0f0668471e01e1e50dcd9\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\26134ccdb2d0f0668471e01e1e50dcd9\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76b112e0556a930742decf8040b458e9\jetified-facebook-applinks-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76b112e0556a930742decf8040b458e9\jetified-facebook-applinks-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\74debc4c1b298d2f6424cb117e64082d\jetified-facebook-gamingservices-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\74debc4c1b298d2f6424cb117e64082d\jetified-facebook-gamingservices-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\26ade20258d24b82ded843b71e3474c6\jetified-facebook-login-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\26ade20258d24b82ded843b71e3474c6\jetified-facebook-login-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\742746a3e7731b1a1a07b9d32060ec2c\jetified-facebook-share-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\742746a3e7731b1a1a07b9d32060ec2c\jetified-facebook-share-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f209091eb3926c649f0b3346884e478c\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f209091eb3926c649f0b3346884e478c\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\ffb6a67829fa40d4c0493cb7e147e8f7\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\ffb6a67829fa40d4c0493cb7e147e8f7\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d65cb7c8efed3ac0d87582c278bb8c7e\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d65cb7c8efed3ac0d87582c278bb8c7e\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\be0f08ddbc7b2ceb9beb29e6b731c207\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\be0f08ddbc7b2ceb9beb29e6b731c207\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\346d5a4de9de9f191c81a5b0fc989c75\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\346d5a4de9de9f191c81a5b0fc989c75\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\591f672701bf83cf8c05b0937b09f458\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\591f672701bf83cf8c05b0937b09f458\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [:facebook-android-wrapper-8.1.1:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\73f7650b3f0ff1cde3e2a2122bd20d82\jetified-facebook-android-wrapper-8.1.1\AndroidManifest.xml:24:5-26:41
+MERGED from [:facebook-android-wrapper-8.1.1:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\73f7650b3f0ff1cde3e2a2122bd20d82\jetified-facebook-android-wrapper-8.1.1\AndroidManifest.xml:24:5-26:41
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:7:5-9:41
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:7:5-9:41
+MERGED from [:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\dad8ce327a3abc030a5b2e2967480431\jetified-instantapps-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\dad8ce327a3abc030a5b2e2967480431\jetified-instantapps-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f5ec57ec49d0a3e9add695de66a9078c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f5ec57ec49d0a3e9add695de66a9078c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\18f5c1f0dcc08504bb6a1709d838cf6b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\18f5c1f0dcc08504bb6a1709d838cf6b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\a083b9190df6cd0b2eed1b8d83acb3d5\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\a083b9190df6cd0b2eed1b8d83acb3d5\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\23f12b0a995277db82a9d4b860245889\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\23f12b0a995277db82a9d4b860245889\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\32488318cfc756fa0f6ae91e625fa530\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\32488318cfc756fa0f6ae91e625fa530\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\702974eead929cb167f132efe0eabb04\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\702974eead929cb167f132efe0eabb04\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7bcdab9edca68925f6bcb92ddd8a20de\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7bcdab9edca68925f6bcb92ddd8a20de\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\12c076570219bdc2a11e9d0df335391a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\12c076570219bdc2a11e9d0df335391a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d711f81259436f09ffdf0b48105165e3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d711f81259436f09ffdf0b48105165e3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\87e4a5cb4839ebd5d033fa0ae6227780\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\87e4a5cb4839ebd5d033fa0ae6227780\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\df8a19ef163eaa8f3d3c8f24458897fd\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\df8a19ef163eaa8f3d3c8f24458897fd\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\aa2f1cd22069a9bb65f1845d902d729f\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\aa2f1cd22069a9bb65f1845d902d729f\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f1f8381ec1e1c3f6b165a08612cfd883\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f1f8381ec1e1c3f6b165a08612cfd883\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f52c60a67eb4c2183a64b296ae574169\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f52c60a67eb4c2183a64b296ae574169\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\0878a65179abd6a1b5016c6981bce614\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\0878a65179abd6a1b5016c6981bce614\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c6f1e76c078a7e4f5288325854cab247\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c6f1e76c078a7e4f5288325854cab247\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7282e00d74c6a6acf53f4bfd68421266\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\7282e00d74c6a6acf53f4bfd68421266\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\098c479f6892902db16f6d5e04f3818b\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\098c479f6892902db16f6d5e04f3818b\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\8cf26fd0d5f767ad6dfe1019ab25b952\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\8cf26fd0d5f767ad6dfe1019ab25b952\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\86f8c8e32c7613bbe5e86eb4377e9413\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\86f8c8e32c7613bbe5e86eb4377e9413\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+		ADDED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+		INJECTED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-67
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:11:5-67
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-79
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:12:5-79
+MERGED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-73
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.1.1] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\94770473d1f361be7880942d238dcb52\jetified-installreferrer-1.1.1\AndroidManifest.xml:5:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.1.1] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\94770473d1f361be7880942d238dcb52\jetified-installreferrer-1.1.1\AndroidManifest.xml:5:5-110
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-107
+uses-feature#0x00020000
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-55
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-69:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-55
+	android:label
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-45
+	android:launchMode
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-48
+	android:resizeableActivity
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-47
+	android:configChanges
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-194
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-55:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:17-86
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:27-83
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-59:40
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:17-37
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-57
+meta-data#unityplayer.ForwardNativeEventsToDalvik
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-62:41
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:17-38
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:17-71
+meta-data#com.google.android.gms.version
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-65:73
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:17-70
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:17-62
+meta-data#android.notch_support
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-68:40
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:17-37
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:17-53
+meta-data#android.max_aspect
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:9-73:36
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-33
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-46
+activity#com.facebook.unity.FBUnityLoginActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-78:86
+	android:configChanges
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-170
+	android:theme
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-83
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-67
+activity#com.facebook.unity.FBUnityDialogsActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:9-82:86
+	android:configChanges
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-170
+	android:theme
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-83
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-69
+activity#com.facebook.unity.FBUnityGamingServicesFriendFinderActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:9-86:86
+	android:configChanges
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-170
+	android:theme
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-83
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-88
+activity#com.facebook.unity.FBUnityAppLinkActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:9-89:39
+	android:exported
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:13-36
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:13-69
+activity#com.facebook.unity.FBUnityDeepLinkingActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:9-92:39
+	android:exported
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-73
+activity#com.facebook.unity.FBUnityGameRequestActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:9-82
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:19-79
+activity#com.facebook.unity.FBUnityCreateGameGroupActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:9-86
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:19-83
+activity#com.facebook.unity.FBUnityJoinGameGroupActivity
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:9-84
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:19-81
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:9-99:49
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-46
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-58
+meta-data#com.facebook.sdk.AutoLogAppEventsEnabled
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:9-102:36
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-33
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:13-68
+meta-data#com.facebook.sdk.AdvertiserIDCollectionEnabled
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:9-105:36
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:13-33
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-74
+provider#com.facebook.FacebookContentProvider
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:9-110:39
+	android:authorities
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-90
+	android:exported
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-36
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-64
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:9-114:33
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-30
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:9-117:36
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-33
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-47
+meta-data#unity.allow-resizable-window
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:9-120:37
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:13-34
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:119:13-56
+meta-data#notch.config
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:9-123:50
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-47
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:9-126:68
+	android:value
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:13-65
+	android:name
+		ADDED from [:unityLibrary] O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-42
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:30:9-33:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:32:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:31:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:34:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:35:9-49:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:38:13-31
+	android:exported
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:36:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:39:13-48:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.ShedWise.IntoTheCup+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:39:13-48:29
+action#android.intent.action.VIEW
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:40:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:42:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:43:17-78
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:43:27-75
+data
+ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:45:17-47:50
+	android:host
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:46:21-56
+	android:scheme
+		ADDED from [com.facebook.android:facebook-common:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\c8e5ea6b462f805e8cee61b82ce2288f\jetified-facebook-common-8.2.0\AndroidManifest.xml:47:21-47
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:8.2.0] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\318fc23ce7386e96579d1786bd25ff89\jetified-facebook-core-8.2.0\AndroidManifest.xml:48:25-92
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12 reason: com.android.installreferrer has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12 reason: com.android.installreferrer has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from O:\UnityProjects\Draw-Trampoline\Draw_Bounce\exports\export2\launcher\src\main\AndroidManifest.xml:2:1-5:12 reason: com.android.installreferrer requested WRITE_EXTERNAL_STORAGE
+service#com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService
+ADDED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:15:9-17:65
+	android:process
+		ADDED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:17:13-62
+	android:name
+		ADDED from [:gameanalytics:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\f18b7e75a8523a9f9484ed9b92e29510\jetified-gameanalytics\AndroidManifest.xml:16:13-99
+meta-data#aia-compat-api-min-version
+ADDED from [:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\dad8ce327a3abc030a5b2e2967480431\jetified-instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+	android:value
+		ADDED from [:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\dad8ce327a3abc030a5b2e2967480431\jetified-instantapps-1.1.0\AndroidManifest.xml:12:13-30
+	android:name
+		ADDED from [:instantapps-1.1.0:] C:\Users\Linton\.gradle\caches\transforms-2\files-2.1\dad8ce327a3abc030a5b2e2967480431\jetified-instantapps-1.1.0\AndroidManifest.xml:11:13-54

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :facebook-android-wrapper-8.1.1:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73f7650b3f0ff1cde3e2a2122bd20d82/jetified-facebook-android-wrapper-8.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73f7650b3f0ff1cde3e2a2122bd20d82/jetified-facebook-android-wrapper-8.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73f7650b3f0ff1cde3e2a2122bd20d82/jetified-facebook-android-wrapper-8.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

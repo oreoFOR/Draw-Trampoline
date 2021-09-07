@@ -1,0 +1,2 @@
+com/ShedWise/IntoTheCup/BuildConfig.java
+ com.ShedWise.IntoTheCup.BuildConfig

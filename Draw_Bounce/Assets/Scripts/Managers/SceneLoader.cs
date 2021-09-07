@@ -15,8 +15,8 @@ public class SceneLoader : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.buildIndex + 1);
     }
-    public void FirstLevel()
+    public void SelectLevel(int testIndex)
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(testIndex);
     }
 }
